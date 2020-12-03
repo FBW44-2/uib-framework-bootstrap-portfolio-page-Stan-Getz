@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
 body {
   background: url("/images/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
 
@@ -8,6 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .text-box {
