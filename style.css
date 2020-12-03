@@ -3,17 +3,16 @@
 *::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
   background: url("/images/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
 
-  /* Full height */
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 
-  /* Center and scale the image nicely */
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
