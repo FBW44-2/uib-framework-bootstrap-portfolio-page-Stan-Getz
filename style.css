@@ -1,0 +1,24 @@
+body {
+  background: url("/images/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-box {
+    width: 60%;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 1.7rem;
+}
